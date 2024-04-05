@@ -5,4 +5,4 @@ run: build
 	./bin/exchange
 
 test:
-	go test -v .
+	go test -v ./...
